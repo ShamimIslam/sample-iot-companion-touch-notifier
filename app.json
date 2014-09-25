@@ -1,0 +1,16 @@
+{
+	"reponame":"sample-touch-notifier-companion",
+	"title":"Touch Notifier Companion App",
+	"abbr":"Touch Notifier",
+	"tooltip":"A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched.",
+	"description":"A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched.",
+	"articleurl":"http://software.intel.com/en-us/html5/articles/iot-touch-notifier-nodejs-&-companion",
+    "screenshotUrl":"",
+    "iconUrl":"",
+	"highlights":["IoT Companion", "App Framework"],
+    "keywords":["IoT Companion", "App Framework"],
+	"visible": "true",
+	"apppreview":"false",
+	"appname":"demo.touchnotifiercompanion",
+	"relname":"4.0.0"
+}

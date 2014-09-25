@@ -9,16 +9,20 @@
 		*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
 		input, textarea  { -webkit-user-select:text; }
 		body { background-color:white; color:black }
-	</style>
-    <link rel="stylesheet" type="text/css" href="appframework/af.ui.css"></link>
-    <script type="text/javascript" charset="utf-8" src="appframework/appframework.ui.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+	</style>  
+    <!--  jQuery  -->
+    <script src="lib/jquery/jquery-2.1.1.js"></script>
+    <!--  App Framework  -->
+    <link rel="stylesheet" type="text/css" href="lib/appframework/af.ui.css"></link>
+    <script type="text/javascript" src="lib/appframework/jq.appframework.min.js"></script>
+<!--    <script type="text/javascript" src="lib/appframework/appframework.js"></script>-->
+    <script type="text/javascript" charset="utf-8" src="lib/appframework/appframework.ui.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/main.css"></link>
     <script src="intelxdk.js"></script>
     <script src="cordova.js"></script>
     
     <script src='xhr.js'></script>
-    <script src="http://192.168.1.148:1337/socket.io/socket.io.js"></script>
     <script type="text/javascript">
         var onDeviceReady=function(){                             // called when Cordova is ready
            if( window.Cordova && navigator.splashscreen ) {     // Cordova API detected
@@ -33,18 +37,26 @@
         
         <div id="content">
 
-            <div id="main" title="TouchNotifier" class="panel" data-footer="none" selected="true">
+            <div id="main" title="TouchNotifier" class="panel" data-footer="none">
                 <div class="center">
                     <h1>Are you Expecting Anyone?</h1>
                     <div id="notifier_circle" class="gray">
                         
                     </div>
-                </div>    
-                
+                </div>          
                 <div>
                     <b>Log:</b><br>
                     <div id="feedback_log" class="redtext"></div>
                 </div>
+            </div>
+            
+            <div class="panel" data-title="TouchNotifier Companion" modal="true" selected="true">
+                <p>Please provide an IP address & port to your TouchBuzzer IoT project on your development platform.</p>
+                <b>Note:</b> This is needed for establishing a connection betweeen your Companion App and Node.js/IoT application.
+                <p>
+                <input id="ip_address" type="text" placeholder="Enter your IoT dev platform's IP Address">
+                <input id="port" type="text" placeholder="Enter your corresponding port number">
+                <a class="block button" onclick="validateIP()">Submit</a>
             </div>
         </div>
     </div>
