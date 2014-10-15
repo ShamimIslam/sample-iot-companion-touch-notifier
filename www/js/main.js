@@ -1,10 +1,7 @@
+/*jslint unparam: true */
 
-/* jshint strict: true, -W097  */
+/* jshint strict: true, -W097, unused:true  */
 /*global window, document, d3, $, io, navigator, setTimeout */
-
-/*jslint */
-/*global */
-
 
 //Set the size of the Notifier Circle
 $("#notifier_circle").width(0.8 * window.innerWidth);
@@ -13,6 +10,7 @@ $("#notifier_circle").height(0.8 * window.innerWidth);
 
 /*
 Function: validateIP()
+Parameter: none
 Description: Attempt to connect to server/Intel IoT platform
 */
 function validateIP() {
@@ -22,7 +20,7 @@ function validateIP() {
         ip_addr = $("#ip_address").val(),
         port = $("#port").val(),
         script = document.createElement("script");
-    
+
     //create script tag for socket.io.js file located on your IoT platform (development board)
     script.setAttribute("src", "http://" + ip_addr + ":" + port + "/socket.io/socket.io.js");
     document.head.appendChild(script);
@@ -39,12 +37,12 @@ function validateIP() {
                 'Ok'                  // buttonName
             );
         });
-                
+
         //Set all Back button to not show
         $.ui.showBackButton = false;
         //Load page with transition
         $.ui.loadContent("#main", false, false, "fade");
-        
+
         socket.on("message", function (message) {
             //alert("Is anyone there? "+message);
             if (message === "present") {
@@ -73,4 +71,3 @@ function validateIP() {
         );
     }
 }
-    
