@@ -1,16 +1,18 @@
 {
-    "reponame": "sample-masherybeatsmusic",
-    "title": "Mashery Beats Music",
-    "abbr": "MasheryBeats",
-    "tooltip": "A demo app that features the Beats Music API, part of the Mashery API Network",
-    "description": "This demo app provides a way to see the Beats Music API in action.",    
-    "articleUrl": "https://software.intel.com/en-us/blogs/2014/07/08/integrating-apis-with-xdk-beatsmusic-sample-app",    
-    "keywords": ["Mashery", "App Framework", "Web Services API", "App Designer"],
-    "relname": "4.0.0",
-    "visible": "true",
-    "appname": "demo.masherybeatsmusic",
-    "apppreview": "false",
-    "type":"appdesigner",
-  	"projectTypeName": "com.intel.xdk.projecttype.webapp"
+	"reponame":"sample-iot-companion-touch-notifier",
+	"title":"Touch Notifier Companion App",
+	"abbr":"Touch Notifier",
+	"tooltip":"A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched. The complimentary Node.js IoT project is visible under Internet of Things (IoT) with Node.js Projects: Start with a Sample or Template.",
+	"description":"A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched. The complimentary Node.js IoT project is visible under Internet of Things (IoT) with Node.js Projects: Start with a Sample or Template.",
+	"articleurl":"http://software.intel.com/en-us/html5/articles/iot-touch-notifier-nodejs-&-companion",
+    	"screenshotUrl":"",
+    	"iconUrl":"",
+	"highlights":["IoT Companion App", "App Framework", "jQuery"],
+    	"keywords":["IoT Companion App", "App Framework", "jQuery"],
+	"visible": "true",
+	"iot-companion":"true",
+	"apppreview":"false",
+	"appname":"demo.touchnotifiercompanion",
+	"relname":"4.0.0",
+  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
 }
-
