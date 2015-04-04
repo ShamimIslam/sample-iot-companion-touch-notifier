@@ -1,18 +1,27 @@
 {
-	"reponame":"sample-iot-companion-touch-notifier",
-	"title":"Touch Notifier Companion App",
-	"abbr":"Touch Notifier",
-	"tooltip":"A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched. The complimentary Node.js IoT project is visible under Internet of Things (IoT) with Node.js Projects: Start with a Sample or Template.",
-	"description":"A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched. The complimentary Node.js IoT project is visible under Internet of Things (IoT) with Node.js Projects: Start with a Sample or Template.",
-	"articleurl":"http://software.intel.com/en-us/html5/articles/iot-touch-notifier-nodejs-&-companion",
-    	"screenshotUrl":"",
-    	"iconUrl":"",
-	"highlights":["IoT Companion App", "App Framework", "jQuery"],
-    	"keywords":["IoT Companion App", "App Framework", "jQuery"],
-	"visible": "true",
-	"iotCompanion":"true",
-	"apppreview":"false",
-	"appname":"demo.touchnotifiercompanion",
-	"relname":"4.0.0",
-  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
+   "visible" : true,
+   "iotCompanion" : "true",
+   "screenshotUrl" : "",
+   "keywords" : [
+      "IoT Companion App",
+      "App Framework",
+      "jQuery"
+   ],
+   "relName" : "4.0.0",
+   "description" : "A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched. The complimentary Node.js IoT project is visible under Internet of Things (IoT) with Node.js Projects: Start with a Sample or Template.",
+   "tooltip" : "A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched. The complimentary Node.js IoT project is visible under Internet of Things (IoT) with Node.js Projects: Start with a Sample or Template.",
+   "appName" : "demo.touchnotifiercompanion",
+   "iconUrl" : "",
+   "abbr" : "Touch Notifier",
+   "title" : "Touch Notifier Companion App",
+   "mobile" : false,
+   "articleUrl" : "http://software.intel.com/en-us/html5/articles/iot-touch-notifier-nodejs-&-companion",
+   "highlights" : [
+      "IoT Companion App",
+      "App Framework",
+      "jQuery"
+   ],
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+   "appPreview" : false,
+   "repoName" : "sample-iot-companion-touch-notifier"
 }
