@@ -9,5 +9,7 @@
   "tooltip" : "A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched. The complimentary Node.js IoT project is visible under Internet of Things (IoT) with Node.js Projects: Start with a Sample or Template.",
   "description" : "A simple app that receives data wirelessly and notifies a user if the Touch Sensor is being touched. The complimentary Node.js IoT project is visible under Internet of Things (IoT) with Node.js Projects: Start with a Sample or Template.",
   "articleUrl" : "http://software.intel.com/en-us/html5/articles/iot-touch-notifier-nodejs-&-companion",
-  "keywords" : ["IoT Companion App","App Framework","jQuery"]
+  "keywords" : ["IoT Companion App","App Framework","jQuery"],
+  "targets": [""],
+  "runtimes": [""]
 }
