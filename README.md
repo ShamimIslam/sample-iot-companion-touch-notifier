@@ -1,6 +1,5 @@
 Touch Notifier IoT Companion App
 ================================
-
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
@@ -14,28 +13,23 @@ Intel XDK, please start with
 
 App Overview
 ------------
-The Touch Notifier Companion App is a simple app that receives
-data wirelessly and notifies a user if the
-[Touch Sensor](https://software.intel.com/en-us/iot/sensor/grove-buzzer)
-is being touched.
+This "Touch Notifier" mobile companion app receives data from an IoT app that
+is running on an IoT device, such as an IoT development board with an attached
+touch sensor.
 
-The Touch Notifier node.js/IoT project sends this data to a
-connected client when running on a IoT platform such as a
-development board with the sensor connected. This sensor is
-included in the Grove Starter Kit Plus - Intel® IoT Edition.
-For more information, go to <https://software.intel.com/en-us/iot/devkit>.
+This mobile companion app works in conjunction with an IoT app also named
+"Touch Notifier." The corresponding IoT app is a Node.js IoT project that can
+be found in the "Templates" section of the "Internet of Things Embedded
+Application" section of the "Start a New Project" page (located on the
+Projects tab). See that app for additional details.
 
-Important Sample App Files
---------------------------
-* index.html
-* css/*
-* js/*
-* lib/jquery/*
-* lib/app_framework/*
+Important App Files
+-------------------
+* www/index.html
+* www/js/main.js
 
-Important Sample Project Files
-------------------------------
+Important Project Files
+-----------------------
 * README.md
 * LICENSE.md
-* project-name.xdk
-* project-name.xdke
+* <project-name>.xdk
