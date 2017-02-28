@@ -1,5 +1,6 @@
 Touch Notifier IoT Companion App
 ================================
+
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
@@ -13,6 +14,7 @@ Intel XDK, please start with
 
 App Overview
 ------------
+
 This "Touch Notifier" mobile companion app receives data from an IoT app that
 is running on an IoT device, such as an IoT development board with an attached
 touch sensor.
@@ -25,11 +27,13 @@ Projects tab). See that app for additional details.
 
 Important App Files
 -------------------
+
 * www/index.html
 * www/js/main.js
 
 Important Project Files
 -----------------------
+
 * README.md
 * LICENSE.md
 * \<project-name\>.xdk
